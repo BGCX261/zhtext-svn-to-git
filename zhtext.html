@@ -1,0 +1,77 @@
+<html><head><script>
+/*! zhText Text Editor $Revision$
+Homepage: ./zhtext-info.html
+Copyright (C) 2011 Ian Low
+Released under the MIT license.
+URL: ./zhtext-license.html
+Date: $Date$
+File: $HeadURL$ */</script>
+<title>zhText</title>
+<link rel='shortcut icon' href='./favicon.ico' /></head>
+
+<!- BODY                                                      ->
+<body id='bd1' padding=0 topmargin=0 rightmargin=0 leftmargin=0 >
+
+<table id='tb1' width='100%' cellspacing=0 border=0 marginwidth=0>
+<tr valign='top'><td>
+<input id='btNewFile' type='button' value='New' />
+<input id='btOpenFile' type='button' value='Open' />
+<select id='slFiles'></select>
+<span style='overflow: hidden; width:0px' >
+<input style='float:right;' id='flFile' type='file' />
+</span>
+<input id='btSaveFile' type='button' value='Save' />
+<input id='btPrintFile' type='button' value='Print' />
+<input id='btHelp' type='button' value='Help' />
+<span style='overflow: hidden; width:0px' >
+<input id='btChinese' type='button' value='Chinese' />
+</span>
+<span style='overflow: hidden; width:0px' >
+<input id='btDownload' type='button' value='Download Latest' />
+</span>
+<span style='overflow: hidden; width:0px' >
+<input id='btDonate' type='button' value='Donate' />
+</span>
+<select id='slFont'></select>
+<span id='spChar'></span>
+</td><td>
+<span id='spCopyRight'>
+<a name='copyright'>
+&copy; 2011 Ian Low<br/><a href='#copyright' onclick='window.open("./zhtext-license.html");'>under MIT license</a>
+</span>
+</td></tr>
+</table>
+
+<textarea id='ta1'></textarea>
+<div id='spInf'></div>
+<table id='tb2' width='100%' cellspacing=0 border=0 marginwidth=0>
+<tr valign='top'><td>
+<textarea id='ta2'></textarea>
+</td><td>
+<span style='overflow: hidden; width:0px' >
+<textarea id='taDbg'>debug</textarea>
+</span>
+</td></tr>
+</table>
+<span id='dvInf'>
+Start:<span id='spStartPos'></span>
+End:<span id='spEndPos'></span>
+Curr:<span id='spCurPos'></span>
+Line:<span id='spLinePos'></span>
+Keys:<span id='spKeysPress'></span>
+Cols:<span id='spCols'></span>
+Rows:<span id='spRows'></span>
+</span>
+<!- INCLUDES                                                  ->
+<script type='text/javascript' src='zhutils.js'></script>
+<script type='text/javascript' src='zhcookie.js'></script>
+<script type='text/javascript' src='zhfunc.js'></script>
+<script type='text/javascript' src='zhkangxi.js'></script>
+<script type='text/javascript' src='zhdict.js'></script>
+<script type='text/javascript' src='zhchar.js'></script>
+<script type='text/javascript' src='zhpron.js'></script>
+<script type='text/javascript' src='zhmain.js'></script>
+<!- TEST AREA                                                 ->
+<script>
+
+</script></body></html>
